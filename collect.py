@@ -16,10 +16,10 @@ def percent(fav,ret):
     return ss
 
 
-access_token = "560167889-WlLRCzZ6UQ1EOlJo9Gc5dbMmFmgRU1CAUoxxdnoP"
-access_token_secret = "5C3GvXn8rO4rJt0IyBZShS14AqHoFgZx5Fhfecnm8PV2G"
-consumer_key = "waZeDptep8tQeTU4G7N5aUWnL"
-consumer_secret = "zSdiNnIJAMZtdHYzzsT90LI3aI0CWNXDCHwTxTvNRw5SE8f0Mo"
+access_token = "ACCESS TOKEN"
+access_token_secret = "ACCESS TOKEN SECRET"
+consumer_key = "CONSUMER KEY"
+consumer_secret = "CONSUMER SECRET"
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 
